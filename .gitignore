@@ -1,0 +1,50 @@
+
+# ==============================
+# Java / Maven / Spring Boot
+# ==============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+# IDE - IntelliJ / Eclipse / VS Code
+# ==============================
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/
+
+# ==============================
+# Node.js / Frontend
+# ==============================
+node_modules/
+dist/
+build/
+.npm/
+npm-debug.log*
+
+# ==============================
+# Environment variables
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# OS
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
